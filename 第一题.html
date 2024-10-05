@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      text-indent: 1em;
+    }
+    body {
+      background-color: #f7f7f7;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+    .rflex {
+      justify-content: space-between;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      font-family: serif;
+      font-weight: bold;
+      font-size: xx-large;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    #right {
+      width: 1000px;
+    }
+    a:hover {
+      background-color: rgb(218, 226, 232);
+    }
+    .baise {
+      background-color: white;
+    }
+    .box {
+      margin: 58px auto;
+      box-shadow: 2px 2px 2px gray;
+      width: 900px;
+      border-radius: 10px;
+      line-height: 30px;
+      font-family: monospace;
+      font-size: x-large;
+    }
+    .rposition {
+      position: relative;
+      left: -250px;
+      top: -1042px;
+      border-radius: 10px;
+      display: block;
+    }
+    .lposition {
+      position: relative;
+      right: -900px;
+      top: -1289px;
+    }
+  </style>
+  <body>
+    <!-- 导航栏 -->
+    <div class="flex rflex baise">
+      <img
+        src="https://img.zcool.cn/community/01dc55595e4adea8012193a3ef09fa.jpg?imageMogr2/auto-orient/thumbnail/1280x%3e/sharpen/0.5/quality/100/format/webp"
+        alt=" "
+        height="100px"
+        width="170px"
+      />
+
+      <div class="flex" id="right">
+        <div class="flex1"><a href="#environment">地理环境</a></div>
+        <div class="flex1"><a href="#history">屹立不倒</a></div>
+        <div class="flex1"><a href="#ren">人文</a></div>
+        <div class="flex1"><a href="#food">食物</a></div>
+        <div class="flex1"><a href="#scene">景点</a></div>
+        <div class="flex1"><a href="#inre">非遗</a></div>
+      </div>
+    </div>
+    <!-- 图片 -->
+    <img
+      src="https://cdn.pixabay.com/photo/2022/03/27/12/46/chongqing-7094955_1280.jpg"
+      alt=" "
+      width="100%"
+    />
+    <ul class="box baise" id="environment">
+      <h1>地理环境</h1>
+      <li>
+        重庆市地势由南北向长江河谷逐级降低，西北部和中部以丘陵、低山为主，东南部靠大巴山和武陵山两座大山脉，坡地较多，有“山城”之称。总的地势是东南部、东北部高，中部和西部低，由南北向长江河谷逐级降低。
+      </li>
+      <li>
+        重庆市地貌结构复杂，呈现出四大特点：一是地势起伏大。东部、南部、东南部地势高，西部地势低。东部最高处为大巴山的川鄂岭，最低处为巫山长江水面。二是地貌类型多样。以山地为主，有中山、低山、高丘陵、中丘陵、低丘陵、缓丘陵、台地和平坝等八大类。三是地貌形态组合的地区分异明显。华蓥山—巴岳山以西为丘陵地貌，华蓥山—方斗山之间为平行岭谷区，北部为大巴山山区，东部、东南部、南部属巫山、大娄山山区。四是喀斯特地貌分布广泛。发育有具特色的喀斯特槽谷景观，典型的有石林、峰林、洼地、残丘、溶洞、暗河、峡谷、天坑地缝等喀斯特景观。
+      </li>
+    </ul>
+
+    <div class="box baise" id="history" style="height: 700px">
+      <h1>屹立不倒</h1>
+      <ul>
+        <li>
+          抗战史是重庆历史上的辉煌一页，是重庆之所以被命名为“历史文化名城”的重要原因，抗战时期的重庆与华盛顿、伦敦、莫斯科一起被列为世界反法西斯战争的四大历史名城。
+        </li>
+        <li>
+          在八年抗战中，重庆虽然遭受长达5年多的恐怖大轰炸，但是日军地面部队从未接近重庆。
+        </li>
+        <li>
+          1938年12月，日军首次侵入重庆上空进行轰炸。从1938年底到1943年8月，重庆共遭到218次恐怖轰炸，日军前后共出动战机9513架次，投下21593枚炸弹。整个重庆有11889名军民遇难，14100人负伤，17608栋房屋被毁。
+        </li>
+        <li>
+          1940年8月19日正午时分，美国记者雷伊·斯科特正在重庆街头拍摄一部有关中国抗战的纪录片。但是，街道的平静突然被尖利的防空警报划破，斯科特抬起头，看到城内各制高点上挂出了代表空袭警报的红色警报灯笼。此时斯科特身处的江北是重庆的工商业核心区，也是日军每次轰炸必然要重点袭击的地区。已经有了丰富防空经验的重庆百姓，一拨拨前往龙门码头，他们一边焦急地望着天空，期盼日机晚些到来，一边眺望码头，希望早些上船。
+        </li>
+        <li>
+          但就在这次规模和对城市的破坏度远超过1939年“五三”“五四”大轰炸的灾难之后，《大公报》记者却在采访中看到了这样的场景：地处都邮街的“广东大酒店”已经被炸塌大半，但老板出门看着周围的废墟，并未痛哭流涕，而是认真地在门上贴出告示，广而告之“本酒家明日照常开业”。
+        </li>
+        <li>
+          面对日寇的恐怖轰炸，重庆的抗日军民并没有气馁，而是在废墟上逐渐尝试建立起近现代化的防空体系。在大轰炸开始前，重庆人并没有灯火管制的概念，从1939年开始，重庆进行了相当严格的灯火管制。当然，随着发电设备疏散和战损，从这时开始，重庆的大部分市民，甚至军工企业，都依赖桐油灯作为主要照明工具。
+        </li>
+        <li>
+          虽然战时重庆的生活并不容易，要抵抗日军的轰炸，要忍耐恶劣的生活条件和飙升的物价，但抗日军民最终克服一切困难，保卫了重庆，打败了日本侵略者。1946年4月，国民政府在《国民政府还都令》中对重庆给予了这样的评价：“重庆襟带双江，控驭南北，占战略之形胜，故能安度危艰，获致使胜利。其对国家贡献之伟大，自将永光史册，弈叶不磨灭！”
+        </li>
+      </ul>
+      <div class="rposition">
+        <img src="../ver1.png" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../ho1.png" alt=" " width="220px" />
+      </div>
+      <m class="rposition">
+        <img src="../his.jpg" alt=" " width="220px" />
+      </m>
+
+      <div class="rposition">
+        <img src="../his2.jpeg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../his3.png" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../his4.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../his5.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../food1.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../food2.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../in1.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../in2.jpg" alt=" " width="220px" />
+      </div>
+      <div class="rposition">
+        <img src="../in5.jpg" alt=" " width="220px" />
+      </div>
+    </div>
+    <div class="box" id="ren" style="height: 200px">
+      <h1>人文</h1>
+      <p>
+        重庆文化主要属巴渝文化它起源于巴文化，是指巴族和巴国在历史的发展中所形成的地域性文化。巴渝文化是长江上游最富有鲜明个性的民族文化之一。巴人一直生活在大山大川之间，大自然的熏陶、险恶的环境，练就一种顽强、坚韧和剽悍的性格，因此巴人以勇猛、善战而称。巴渝文化是以重庆为中心的四川盆地东部地区的文化，其内涵不仅限于古代巴国、巴族、巴郡的历史文化，而且包括了从先秦到明清时期的以重庆为中心的广大地区的历史文化。
+      </p>
+      <div class="lposition">
+        <img src="../ver2.png" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../ho2.png" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s1.jpg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s2.jpg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s3-4.gif" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s4.jpg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s6.jpeg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../s7.jpeg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../in3.jpg" alt=" " width="220px" />
+      </div>
+      <div class="lposition">
+        <img src="../in4.jpg" alt=" " width="220px" />
+      </div>
+    </div>
+    <div class="box" id="food">
+      <h1>食物</h1>
+      <p>
+        重庆市饮食的主要特点是麻、辣，以不拘一格使用各种食材创作新菜见长。重庆亦是火锅的发源地；2007年3月，重庆市荣获中国烹饪协会授予“中国火锅之都”称号。川菜重庆菜主要代表菜：重庆火锅、江湖菜、水煮鱼、回锅肉、酸菜鱼、辣子鸡、泉水鸡、水煮肉片、老鸭汤、酸辣粉、鱼香肉丝、泡椒肥肠、粉蒸肉、烧白、重庆小面、重庆小吃等。
+      </p>
+    </div>
+    <div class="box" id="scene">
+      <h1>景点</h1>
+      <p>
+        重庆市拥有山、水、林、泉、瀑、峡、洞等自然景色，共有自然、人文景点300余处，其中有世界文化遗产1个（大足石刻），世界自然遗产3个（重庆武隆喀斯特旅游区、重庆金佛山喀斯特、重庆五里坡），国家重点风景名胜区6个，国家森林公园24个，国家级自然保护区7个,全国重点文物保护单位20个。
+      </p>
+    </div>
+    <div class="box" id="inre">
+      <h1>非遗</h1>
+      <p>
+        截至2021年，重庆市共有国家级非遗项目53项，包括民间文学类3项，传统音乐类14项，传统舞蹈类4项，传统戏剧类3项，曲艺类6项，传统体育、游艺与杂技类1项，传统美术类7项，传统技艺类7项，传统医药类4项，民俗类4项。还有市级非遗项目707项，区县级非遗项目3428项。
+      </p>
+      <p>川江号子</p>
+      <p>
+        川江号子主要流传于长江及其支流的嘉陵江、乌江和大宁河等流域。这一带航道曲折，水急滩多，尤其是惊险的三峡出川使船工们举步维艰。为了统一的动作和节奏，号子一般由号工领唱，众船工合唱。号子唱词往往以沿江的地名、物产、历史、人文景观为题进行编创，具有丰富的知识性。
+      </p>
+      <p>酉阳土家面具阳戏</p>
+      <p>
+        酉阳土家面具阳戏，又名脸壳戏，是广泛流传于重庆市酉阳土家族苗族自治县的民间戏剧。据考证，形成于清嘉庆、道光年间。面具阳戏主要活跃于山间田野，内容主要是反映普通的人文伦理、家庭生活、劳动故事、男女爱情和妖狐鬼神等故事。演员全部为男性，主要通过肢体语言和念唱对白塑造人物、演绎剧情。
+      </p>
+    </div>
+  </body>
+</html>
